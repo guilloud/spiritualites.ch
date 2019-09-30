@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
         markdownIt({
             typographer: true
         }).use(markdownItAnchor, {
-            permalink: true,
+            // permalink: true,
             permalinkCLass: "direct-link",
             slugify: uslugify,
             permalinkSymbol: "#"
