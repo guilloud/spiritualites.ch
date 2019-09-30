@@ -1,0 +1,1 @@
+# spiritualites.ch
