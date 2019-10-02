@@ -22,6 +22,9 @@ disableKinds:
   - taxonomyTerm
   - section
 
+taxonomies:
+  tag: tags
+
 # Repris de https://github.com/jamstatic/jamstatic-fr/blob/21e1888dc2b174176a6e9761bb86438b91f5e15e/config.yaml
 related:
   threshold: 80

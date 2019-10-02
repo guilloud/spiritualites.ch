@@ -1,19 +1,20 @@
-{{ define "title" }}
-{{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
 {{ define "main" }}
+<header>
 <h1>{{ .Title }}</h1>
-<time >{{ .Date.Format "02.01.2006"}}</time>
+<time >{{ .Date.Format "2.1.2006"}}</time>
+</header>
 {{ .Content }}
 
+<aside>
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
-<h3>Voir aussi</h3>
+<h1>Voir aussi</h1>
 <ul>
 	{{ range . }}
 	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 	{{ end }}
 </ul>
 {{ end }}
+</aside>
 
 {{ end }}
