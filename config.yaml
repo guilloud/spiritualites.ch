@@ -14,6 +14,8 @@ params:
   author: 
     name: Nicolas Friedli
     url: https://nicolasfriedli.ch
+  images:
+    - /img/spiritualite.jpg
 
 disableKinds:
   - taxonomy
