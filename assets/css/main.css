@@ -47,6 +47,10 @@ h3 {
     line-height: 1.2;
 }
 
+h3 a {
+    text-decoration: none;
+}
+
 h4 {
     font-size: 1rem;
 }
@@ -55,9 +59,13 @@ a {
     color: hsl(214, 40%, 30%);
 }
 
-time {
+header time {
     display:block;
     text-align: center;
+}
+
+article header {
+    margin-bottom: 3rem;
 }
 
 blockquote {
@@ -76,4 +84,13 @@ div.sommaire {
     padding: 1rem;
     border-radius: 1rem;
     background: #FFF;
+}
+
+.sommaire time {
+    align: left;
+    font-size: .9rem;
+}
+
+aside h1 {
+    font-size: 1.1rem;
 }

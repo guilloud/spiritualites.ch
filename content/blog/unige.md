@@ -1,7 +1,7 @@
 ---
 title: "Introduction à la spiritualité chrétienne: les concepts fondamentaux"
 date: 2019-10-01
-description: Entre septembre et décembre 2019, l'université de Genève propose une introduction à la spiritualité chrétienne. 
+description: Entre septembre et décembre 2019, l'université de Genève propose une introduction à la spiritualité chrétienne.
 ---
 
 Entre septembre et décembre 2019, l'Institut romand de systématique et d'éthique de la Faculté de théologie de Genève propose une introduction à la spiritualité chrétienne. 

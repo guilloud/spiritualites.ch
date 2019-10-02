@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ block "title" . }}
-        {{ .Site.Title }}
-        {{ end }}</title>
+    <title>{{ .Title }}</title>
     {{ with .Description }}
     <meta name="description" content="{{ . }}">
     {{ end }}
@@ -26,7 +24,11 @@
 
 <body>
     <header>
+        {{ if not .IsHome }}
         <a href="/" rel="home">Spiritualités protestantes</a>
+        {{ else }}
+        Spiritualités protestantes
+        {{ end }}
     </header>
     <main>
         <article>
