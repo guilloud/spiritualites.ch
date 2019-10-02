@@ -21,6 +21,8 @@ Les [conférences sont mises en ligne](https://www.youtube.com/user/protestantge
 - [Le labo du pasteur Marc Pernot, rédacteur en chef invité du *Point du jour*](https://www.heidi.news/articles/le-labo-du-pasteur-marc-pernot-redacteur-en-chef-invite-du-point-du-jour)
 - [Pascal Décaillet et Marc Pernot sur Léman Bleu TV](https://www.youtube.com/watch?v=3WZKQgSCfI4)
 - [Des «héros» de la Bible mis à l’honneur](https://www.reformes.ch/eglises/2019/08/des-heros-de-la-bible-mis-lhonneur-reformes-septembre-2019-bible-theologie-marc)
+- [Un pasteur genevois en ligne pour de drôles de paroissiens](https://www.tdg.ch/lematindimanche/pasteur-genevois-ligne-droles-paroissiens/story/17157223)
+- [L’e-paroisse du pasteur Pernot rassemble des fidèles du monde entier](https://epaper.lematindimanche.ch/#article/200/Le%20Matin%20Dimanche/2019-09-15/12/100646605)
 
 ## Source
 
