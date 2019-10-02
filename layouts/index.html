@@ -3,9 +3,11 @@
 {{ end }}
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+
 {{ .Content }}
+<h2>Articles</h2>
+
 <div class="sommaire">
-    <h2>Articles</h2>
 {{ range .Site.RegularPages }}
   <article>
     <h3>{{ .Title }}</h3>
