@@ -16,6 +16,8 @@
     {{ hugo.Generator }}
     <link rel="alternate" href="{{ .Site.RSSLink | relURL }}" title="{{ .Site.Title }}" type="application/atom+xml">
     {{- template "_internal/opengraph.html" . -}}
+    <meta property="article:author" content="https://www.facebook.com/nicolasfriedli.ch">
+    <meta property="article:publisher" content="https://www.facebook.com/nicolasfriedli.ch">
     {{- template "_internal/twitter_cards.html" . -}}
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i&display=swap" rel="stylesheet">
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
