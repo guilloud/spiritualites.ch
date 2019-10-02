@@ -1,0 +1,37 @@
+baseURL: http://spiritualites.ch/
+title: "Spiritualités protestantes"
+defaultContentLanguage: fr
+languageCode: fr-ch
+
+googleAnalytics: UA-131329337-5
+enableRobotsTXT: true
+
+disableFastRender: true
+
+params:
+  title: Spiritualités protestantes
+  description: Blog sur les offres spirituelles et méditatives réformées en Suisse romande
+  author: 
+    name: Nicolas Friedli
+    url: https://nicolasfriedli.ch
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - section
+
+# Repris de https://github.com/jamstatic/jamstatic-fr/blob/21e1888dc2b174176a6e9761bb86438b91f5e15e/config.yaml
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: false
+  indices:
+    - name: "categories"
+      weight: 80
+    - name: "tags"
+      weight: 80
+    - name: "keywords"
+      weight: 80
+    - name : "date"
+      weight: 10
+      pattern: "2006"
