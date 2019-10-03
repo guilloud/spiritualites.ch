@@ -128,7 +128,7 @@ div.sommaire {
 }
 
 .sommaire time {
-    align: left;
+    text-align: left;
     font-size: .9rem;
 }
 
