@@ -4,3 +4,12 @@
     X-XSS-Protection: 1; mode=block
     X-Frame-Options: DENY
     Cache-Control: max-age=86400
+
+/css/*
+    Cache-Control: max-age=86400
+
+/img/*
+    Cache-Control: max-age=86400
+
+/favicon.ico
+    Cache-Control: max-age=86400
