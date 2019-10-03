@@ -5,16 +5,18 @@
 </header>
 {{ .Content }}
 
-<aside>
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
+<aside>
+
 <h1>Voir aussi</h1>
 <ul>
 	{{ range . }}
 	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 	{{ end }}
 </ul>
-{{ end }}
 </aside>
+{{ end }}
+
 
 {{ end }}

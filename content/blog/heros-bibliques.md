@@ -1,7 +1,10 @@
 ---
 title: Héros bibliques
 date: 2019-10-03
-description: Une série de cinq courtes conférences à la Fusterie dans le centre ville de Genève. 
+description: Une série de cinq courtes conférences à la Fusterie dans le centre ville de Genève.
+canton: Genève
+tags: 
+    - conférences
 ---
 
 Entre septembre et octobre 2019, le pasteur Marc Pernot, de l'Église protestante de Genève (EPG), propose une série de cinq courtes conférences à la Fusterie dans le centre ville de Genève.

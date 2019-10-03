@@ -27,16 +27,14 @@ taxonomies:
 
 # Repris de https://github.com/jamstatic/jamstatic-fr/blob/21e1888dc2b174176a6e9761bb86438b91f5e15e/config.yaml
 related:
-  threshold: 80
+  threshold: 60
   includeNewer: true
   toLower: false
   indices:
-    - name: "categories"
+    - name: "canton-en-attente" 
+      weight: 50
+    - name: "tags-en-attente" 
       weight: 80
-    - name: "tags"
-      weight: 80
-    - name: "keywords"
-      weight: 80
-    - name : "date"
+    - name : "date-en-attente"
       weight: 10
       pattern: "2006"

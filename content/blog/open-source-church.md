@@ -2,6 +2,9 @@
 title: Open Source Church
 date: 2019-10-04
 description: À Lausanne, des célébrations expérimentales développées par la communauté.
+canton: Vaud
+tags:
+    - célébration
 ---
 
 Une fois par mois la paroisse St-François St-Jacques de Lausanne propose des célébrations originales et uniques. 
