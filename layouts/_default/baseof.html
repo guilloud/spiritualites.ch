@@ -17,9 +17,11 @@
     <meta property="article:author" content="https://www.facebook.com/nicolasfriedli.ch">
     <meta property="article:publisher" content="https://www.facebook.com/nicolasfriedli.ch">
     {{- template "_internal/twitter_cards.html" . -}}
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i&display=swap" rel="stylesheet">
     {{ $styles := resources.Get "css/main.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    <link rel="preload" href="{{ .Site.BaseURL }}/css/fira-sans-v10-latin-regular.woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.BaseURL }}/css/fira-sans-v10-latin-700.woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.BaseURL }}/css/fira-sans-v10-latin-italic.woff2" crossorigin>
 </head>
 
 <body>
