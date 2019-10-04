@@ -4,6 +4,9 @@
     X-XSS-Protection: 1; mode=block
     X-Frame-Options: DENY
     Cache-Control: max-age=86400
+    Link: <https://spiritualites.ch/css/fira-sans-v10-latin-regular.woff2>; as=font; crossorigin; rel=preload
+    Link: <https://spiritualites.ch/css/fira-sans-v10-latin-700.woff2>; as=font; crossorigin; rel=preload
+    Link: <https://spiritualites.ch/css/fira-sans-v10-latin-italic.woff2>; as=font; crossorigin; rel=preload
 
 /css/*
     Cache-Control: max-age=63072000
