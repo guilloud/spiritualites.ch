@@ -41,7 +41,7 @@
 
 html {
     font-family: 'Fira Sans', sans-serif;
-    color: hsl(214, 40%, 30%);
+    color: hsl(214, 41%, 30%);
     background: #f7f3f2;
     font-size: 110%;
     padding: 1rem;
@@ -64,7 +64,7 @@ body.home {
 header,
 footer {
     font-size: .9rem;
-    color: hsl(214, 40%, 30%);
+    color: hsl(214, 41%, 30%);
 }
 
 header a {

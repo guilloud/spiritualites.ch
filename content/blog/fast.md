@@ -2,7 +2,6 @@
 title: fast - formation d’approfondissement spirituel et théologique
 date: 2019-10-02
 description: Entre novembre 2019 et juin 2020, Cèdres formation propose un parcours au travers des spiritualités chrétiennes.
-canton: Vaud
 keywords:
     - formation
     - Vaud

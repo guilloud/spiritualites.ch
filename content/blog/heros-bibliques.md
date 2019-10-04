@@ -2,7 +2,6 @@
 title: Héros bibliques
 date: 2019-10-03
 description: Une série de cinq courtes conférences à la Fusterie dans le centre ville de Genève.
-canton: Genève
 keywords: 
     - conférences
     - Genève

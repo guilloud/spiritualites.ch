@@ -2,7 +2,6 @@
 title: Open Source Church
 date: 2019-10-04
 description: À Lausanne, des célébrations expérimentales développées par la communauté.
-canton: Vaud
 keywords:
     - célébration
     - Vaud
