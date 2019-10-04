@@ -4,7 +4,7 @@
 <time >{{ .Date.Format "2.1.2006"}}</time>
 {{ if isset .Params "keywords" }}
 <ul class="tags">
-{{ range $keywords := .Params.keywords }}<li>{{ . }}</li>{{ end }}
+{{ range .Params.keywords }}<li>{{ . }}</li>{{ end }}
 </ul>
 {{ end }}
 </header>
