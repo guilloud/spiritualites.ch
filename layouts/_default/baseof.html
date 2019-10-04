@@ -22,7 +22,7 @@
     {{ template "_internal/google_analytics_async.html" . }}
 </head>
 
-<body>
+<body class="{{.Kind}}">
     <header>
         {{ if not .IsHome }}
         <a href="/" rel="home">Spiritualités protestantes</a>

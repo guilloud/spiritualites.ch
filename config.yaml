@@ -11,11 +11,17 @@ disableFastRender: true
 params:
   title: Spiritualités protestantes
   description: Blog sur les offres spirituelles et méditatives réformées en Suisse romande
+  email: hello@nicolasfriedli.ch
   author: 
     name: Nicolas Friedli
     url: https://nicolasfriedli.ch
   images:
     - /img/spiritualite.jpg
+    - /img/spiritualites-1.jpg
+    - /img/spiritualites-2.jpg
+    - /img/spiritualites-3.jpg
+    - /img/spiritualites-4.jpg
+    - /img/spiritualites-5.jpg
 
 disableKinds:
   - taxonomy
@@ -31,10 +37,8 @@ related:
   includeNewer: true
   toLower: false
   indices:
-    - name: "canton-en-attente" 
-      weight: 50
-    - name: "tags-en-attente" 
+    - name: "keywords" 
       weight: 80
-    - name : "date-en-attente"
-      weight: 10
+    - name : "date"
+      weight: 20
       pattern: "2006"
